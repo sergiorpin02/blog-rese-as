@@ -184,19 +184,3 @@ body {
     font-size: 0.9rem;
     border-top: 1px solid #e2e8f0;
 }
-
-/* Diseño responsivo para móviles */
-@media (max-width: 768px) {
-    .review-card {
-        flex-direction: column;
-    }
-
-    .review-image {
-        flex: none;
-        height: 300px;
-    }
-
-    .review-content {
-        padding: 20px;
-    }
-}
